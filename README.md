@@ -162,6 +162,10 @@ docker compose down
 
 ---
 
+### 7. Docker multistage build 
+
+---
+
 ## ⚙️ Environment Configuration
 
 The Flask application uses environment variables for database configuration.
