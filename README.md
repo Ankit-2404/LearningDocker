@@ -164,6 +164,37 @@ docker compose down
 
 ### 7. Docker multistage build 
 
+It helps you to reduce or compress the size of the docker images which helps to save the memory.
+
+---
+---
+
+### 8. Docker SCOUT
+
+It is docker's inbuilt tool pre-installed with the docker desktop.
+
+It is used to analyse and scan the docker images for the security purpose.
+
+```bash
+docker scout quickview 'image name'
+```
+
+```bash
+docker scout cves 'imagename
+```
+If you want in depth analysis use above command.
+
+---
+---
+
+### 9. Docker init
+
+It is docker's inbuilt features, provides the prebuilt templates for the Dockerfile, .dockerignore file, compose.yaml and README.DOCKER.md. so you do not need to write their code manually. you only need to make few edit based on your project's requirements.
+
+```bash
+docker init
+```
+
 ---
 
 ## ⚙️ Environment Configuration
